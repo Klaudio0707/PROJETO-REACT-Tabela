@@ -1,11 +1,11 @@
 import React from "react";
 
-const TabelaFoot = () => (
-<tfood>
+const TabelaFoot = (props) => (
+<tfoot>
 <tr>
-<td colSpan="4">Este é o rodapé da tabela</td>    
+<td colSpan="4">Quantidade de livros na tabela: { props.qdeLivros }</td>    
 </tr>
-</tfood>
+</tfoot>
 
 );
 
