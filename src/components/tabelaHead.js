@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const TabelaHead = () => (
+const TabelaHead = (props) => (
 
     <thead>
 <tr>
@@ -9,7 +9,13 @@ const TabelaHead = () => (
 </tr>
 <tr>
     <th>ISBN</th>
-    <th>Título</th>
+    <th>Título
+        <div className="container-setinhas">
+<div>&#129093;</div>
+<div>&#129095;</div>
+
+        </div>
+    </th>
     <th>Autor</th>
     <th></th>
 </tr>
